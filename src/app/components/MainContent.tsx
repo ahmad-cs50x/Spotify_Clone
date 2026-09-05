@@ -6,7 +6,7 @@ import Header from './Header';
 import QuickAccessGrid from './QuickAccessGrid';
 import UploadPrompt from './UploadPrompt';
 import TrackList from './TrackList';
-import { Song, Playlist } from '@/app/type';
+import { Song, Playlist } from '../type';
 
 interface MainContentProps {
   selectedPlaylistId: string;

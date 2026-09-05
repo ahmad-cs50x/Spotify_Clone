@@ -2,7 +2,7 @@
 'use client';
 
 import { useState, useEffect, useCallback } from 'react';
-import { Playlist } from '..types';
+import { Playlist } from '../type';
 
 export function usePlaylists() {
   const [playlists, setPlaylists] = useState<Playlist[]>([]);
