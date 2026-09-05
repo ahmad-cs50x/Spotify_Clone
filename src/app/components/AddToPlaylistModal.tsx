@@ -3,7 +3,7 @@
 
 import React from 'react';
 import { Plus, FolderOpen, X } from 'lucide-react';
-import { Song, Playlist } from '@/types';
+import { Song, Playlist } from '@/app/type';
 
 interface AddToPlaylistModalProps {
   track: Song;
